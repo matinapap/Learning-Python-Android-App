@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#E3F2FD"
+    android:padding="16dp"
+    tools:context=".HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#E3F2FD"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end"
+            android:layout_marginBottom="8dp">
+
+            <ImageView
+                android:id="@+id/profileImageView"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginEnd="16dp"
+                android:onClick="goToProfile"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_profile"
+                android:contentDescription="Προφίλ χρήστη" />
+
+            <TextView
+                android:id="@+id/welcomeTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Καλωσορίσατε"
+                android:textColor="#124559"
+                android:textSize="18sp" />
+            <ImageView
+                android:id="@+id/infoIcon"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_margin="8dp"
+                android:src="@drawable/info"
+                android:contentDescription="Πληροφορίες"
+                android:clickable="true"
+                android:focusable="true"/>
+
+        </LinearLayout>
+
+        <Spinner
+            android:id="@+id/quizSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:paddingVertical="12dp"
+            android:layout_marginBottom="16dp" />
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Τελείωσες με το quiz?"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/theoryButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#124559"
+            android:onClick="goToAdaptiveLearning"
+            android:text="Δες εδώ!" />
+
+
+        <TextView
+            android:id="@+id/headerText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Στόχοι Ενοτήτων του μαθήματος της"
+            android:textColor="#124559"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/pythonText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PYTHON"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:textColor="#F4B400"
+            android:layout_marginBottom="24dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="#F1EFE7"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Γενικοί Σκοποί του Μαθήματος"
+                        android:textColor="#124559"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="Οι γενικοί σκοποί αυτού του μαθήματος είναι να:\n\n- Παρέχει μια σταθερή εισαγωγή στην προγραμματιστική γλώσσα Python.\n- Εξοικειώσει τους μαθητές με τις βασικές έννοιες προγραμματισμού.\n- Αναπτύξει την ικανότητα των μαθητών να σκέφτονται αλγοριθμικά και να λύνουν προβλήματα.\n- Θέσει τις βάσεις για περαιτέρω εμβάθυνση σε πιο προχωρημένα θέματα της Python και της επιστήμης υπολογιστών."
+                        android:textColor="#31393e"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/lesson1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="#F1EFE7"
+                android:onClick="goLesson"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ενότητα 1: Εισαγωγή στην Python"
+                        android:textColor="#124559"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="- Ορίζουν τι είναι η Python.\n- Αναφέρουν παραδείγματα χρήσης της Python (web, AI, επιστήμη δεδομένων κ.λπ.).\n- Κατανοούν τη φιλοσοφία και τα πλεονεκτήματα της γλώσσας."
+                        android:textColor="#31393e"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/lesson2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="#F1EFE7"
+                android:onClick="goLesson"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ενότητα 2: Βασικά Συντακτικά Στοιχεία στην Python"
+                        android:textColor="#124559"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="- Δημιουργούν και να χρησιμοποιούν μεταβλητές στην Python.\n- Αναγνωρίζουν και να χειρίζονται βασικούς τύπους δεδομένων.\n- Χρησιμοποιούν εντολές εισόδου και εξόδου.\n- Κατανοούν τη σημασία των σχολίων στον κώδικα."
+                        android:textColor="#31393e"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/lesson3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="#F1EFE7"
+                android:onClick="goLesson"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ενότητα 3: Δομές Ελέγχου στην Python"
+                        android:textColor="#124559"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="- Χρησιμοποιούν if, elif, else.\n- Εφαρμόζουν λογικούς τελεστές.\n- Δημιουργούν προγράμματα με συνθήκες."
+                        android:textColor="#31393e"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/lesson4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="#F1EFE7"
+                android:onClick="goLesson"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ενότητα 4: Επανάληψη και Λίστες στην Python"
+                        android:textColor="#124559"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="- Χρησιμοποιούν βρόχους for και while.\n- Διαχειρίζονται λίστες.\n- Συνδυάζουν βρόχους και λίστες."
+                        android:textColor="#31393e"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/lesson5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="32dp"
+                android:backgroundTint="#F1EFE7"
+                android:onClick="goLesson"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ενότητα 5: Συναρτήσεις και Mini Project στην Python"
+                        android:textColor="#124559"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="- Ορίζουν και να χρησιμοποιούν συναρτήσεις.\n- Κατανοούν παραμέτρους και τιμές επιστροφής.\n- Δημιουργούν προγράμματα με συναρτήσεις."
+                        android:textColor="#31393e"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

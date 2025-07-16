@@ -1,0 +1,1017 @@
+{
+  "lessons": {
+    "lesson_1": {
+      "fail": {
+        "url": "https://www.youtube.com/watch?v=6i3e-j3wSf0&t=95s"
+      },
+      "pass": {
+        "url": "https://www.w3schools.com/python/python_intro.asp"
+      },
+      "quizzes": [
+        {
+          "options": [
+            {
+              "is_correct": false,
+              "text": "Elon Musk"
+            },
+            {
+              "is_correct": true,
+              "text": "Guido van Rossum"
+            },
+            {
+              "is_correct": false,
+              "text": "Bill Gates"
+            },
+            {
+              "is_correct": false,
+              "text": "Mark Zuckerberg"
+            }
+          ],
+          "question": "Ποιος δημιούργησε την Python;",
+          "type": "multiple_choice"
+        },
+        {
+          "options": [
+            {
+              "is_correct": false,
+              "text": "Ανάπτυξη web εφαρμογών"
+            },
+            {
+              "is_correct": true,
+              "text": "Σχεδίαση μόδας"
+            },
+            {
+              "is_correct": false,
+              "text": "Επιστήμη δεδομένων"
+            },
+            {
+              "is_correct": false,
+              "text": "Τεχνητή Νοημοσύνη"
+            }
+          ],
+          "question": "Ποια από τις παρακάτω ΔΕΝ είναι κλασική χρήση της Python;",
+          "type": "multiple_choice"
+        },
+        {
+          "options": [
+            {
+              "is_correct": false,
+              "text": "Ευκολία στη μάθηση"
+            },
+            {
+              "is_correct": false,
+              "text": "Μεγάλη κοινότητα υποστήριξης"
+            },
+            {
+              "is_correct": true,
+              "text": "Δύσκολη σύνταξη"
+            },
+            {
+              "is_correct": false,
+              "text": "Πολλές έτοιμες βιβλιοθήκες"
+            }
+          ],
+          "question": "Ποιο από τα παρακάτω ΔΕΝ αποτελεί πλεονέκτημα της Python;",
+          "type": "multiple_choice"
+        }
+      ],
+      "theory": {
+        "section 1": {
+          "content": "Να αποκτήσουν οι μαθητές βασική κατανόηση: •\tΤι είναι η Python. •\tΣε ποια πεδία χρησιμοποιείται. •\tΓιατί είναι σημαντική στον προγραμματισμό σήμερα.",
+          "title": "Γενικός Σκοπός της Ενότητας"
+        },
+        "section 2": {
+          "content": "Η Python είναι μία σύγχρονη, υψηλού επιπέδου γλώσσα προγραμματισμού, η οποία δημιουργήθηκε το 1991 από τον Ολλανδό προγραμματιστή Guido van Rossum. Χαρακτηρίζεται από την απλότητα στη σύνταξη και την ευκολία στην ανάγνωση και κατανόηση του κώδικα, γεγονός που την καθιστά ιδιαίτερα προσιτή τόσο σε αρχάριους όσο και σε έμπειρους προγραμματιστές. Η Python έχει εξελιχθεί σε μία από τις δημοφιλέστερες γλώσσες προγραμματισμού παγκοσμίως, χρησιμοποιούμενη σε πληθώρα εφαρμογών και τεχνολογικών πεδίων.",
+          "title": "Τι είναι η Python;"
+        },
+        "section 3": {
+          "content": "Η Python χρησιμοποιείται εκτενώς σε διάφορους τομείς, όπως: Τομέας Εφαρμογής\tΠεριγραφή Ανάπτυξη Ιστοσελίδων και Εφαρμογών (Web Development)\tΔημιουργία δυναμικών ιστότοπων και διαδικτυακών υπηρεσιών. Επιστήμη Δεδομένων (Data Science)\tΑνάλυση και επεξεργασία μεγάλων όγκων δεδομένων. Μηχανική Μάθηση και Τεχνητή Νοημοσύνη (Machine Learning & AI)\tΑνάπτυξη \"έξυπνων\" συστημάτων που βασίζονται σε δεδομένα. Αυτοματισμός Εργασιών (Automation)\tΑυτοματοποίηση επαναλαμβανόμενων ή πολύπλοκων διαδικασιών. Ανάπτυξη Παιχνιδιών (Game Development)\tΔημιουργία ψηφιακών παιχνιδιών και εφαρμογών διασκέδασης. Internet of Things (IoT)\tΑνάπτυξη εφαρμογών για έξυπνες συσκευές και αισθητήρες.",
+          "title": "Περιοχές Χρήσης της Python"
+        },
+        "section 4": {
+          "content": "Η Python παρουσιάζει σημαντικά πλεονεκτήματα έναντι άλλων γλωσσών προγραμματισμού, μεταξύ των οποίων: •\tΑπλότητα και Αναγνωσιμότητα: Ο κώδικας είναι ευανάγνωστος και μοιάζει με την αγγλική γλώσσα. •\tΕυκολία Εκμάθησης: Ιδανική επιλογή για μαθητές και αρχάριους προγραμματιστές. •\tΠολυχρηστικότητα: Εφαρμόζεται σε πληθώρα τομέων της πληροφορικής και της τεχνολογίας. •\tΔυνατότητα Επαγγελματικής Ανάπτυξης: Μεγάλη ζήτηση στην αγορά εργασίας. •\tΥποστήριξη μέσω Κοινότητας και Βιβλιοθηκών: Πλούσια διαθέσιμη τεκμηρίωση και πληθώρα έτοιμων εργαλείων.",
+          "title": "Πλεονεκτήματα της Python"
+        },
+        "section 5": {
+          "content": "Η Python οφείλει το όνομά της στην κωμική ομάδα \"Monty Python’s Flying Circus\", γεγονός που αντανακλά την πρόθεση του δημιουργού της για έναν προγραμματισμό ευχάριστο και απλό. Παρά το φιλικό της προφίλ, η Python έχει ισχυρές δυνατότητες και χρησιμοποιείται σε απαιτητικά επαγγελματικά έργα.",
+          "title": "Ιστορικό Πλαίσιο"
+        },
+        "section 6": {
+          "content": "Με την ολοκλήρωση της παρούσας ενότητας, οι μαθητές αναμένεται να: •\tΚατανοούν τι είναι η γλώσσα προγραμματισμού Python. •\tΑναγνωρίζουν τους βασικούς τομείς εφαρμογής της. •\tΕκτιμούν τα κύρια πλεονεκτήματα και τα χαρακτηριστικά της.",
+          "title": "Σύνοψη της Ενότητας"
+        }
+      },
+      "title": "Εισαγωγή στην Python"
+    },
+    "lesson_2": {
+      "fail": {
+        "url": "https://www.youtube.com/watch?v=fLAfa-BQtOQ&t=7s"
+      },
+      "pass": {
+        "theoretical": {
+          "exercises": {
+            "instruction": "Ταξινόμησε τις εντολές για να δημιουργήσεις ένα πρόγραμμα που ζητά αριθμό και τον διπλασιάζει:",
+            "program": "αριθμός = int(input(\"Δώσε έναν αριθμό: \"))  /n print(\"Ο διπλάσιος αριθμός είναι:\", αριθμός * 2)"
+          },
+          "url": "https://www.w3schools.com/python/python_variables.asp"
+        },
+        "visual": {
+          "exercises": {
+            "answers": [
+              null,
+              "input",
+              "print"
+            ],
+            "instruction": "Συμπλήρωσε τα κενά στο παρακάτω πρόγραμμα:",
+            "program": "όνομα = ***(\"Ποιο είναι το όνομά σου; \") /n ***(\"Γεια σου,\", όνομα)"
+          },
+          "url": "https://www.programiz.com/python-programming/online-compiler/"
+        }
+      },
+      "quizzes": [
+        {
+          "options": [
+            {
+              "is_correct": false,
+              "text": "input()"
+            },
+            {
+              "is_correct": false,
+              "text": "show()"
+            },
+            {
+              "is_correct": true,
+              "text": "print()"
+            },
+            {
+              "is_correct": false,
+              "text": "display()"
+            }
+          ],
+          "question": "Ποια εντολή χρησιμοποιούμε για να εμφανίσουμε κείμενο στην Python;",
+          "type": "multiple_choice"
+        },
+        {
+          "options": [
+            {
+              "is_correct": false,
+              "text": "Ακέραιο (int)"
+            },
+            {
+              "is_correct": false,
+              "text": "Δεκαδικό (float)"
+            },
+            {
+              "is_correct": true,
+              "text": "Συμβολοσειρά (string)"
+            },
+            {
+              "is_correct": false,
+              "text": "Λογική τιμή (boolean)"
+            }
+          ],
+          "question": "Τι τύπο δεδομένων επιστρέφει πάντα η εντολή input();",
+          "type": "multiple_choice"
+        },
+        {
+          "options": [
+            {
+              "is_correct": false,
+              "text": "/* Σχόλιο */"
+            },
+            {
+              "is_correct": true,
+              "text": "# Σχόλιο"
+            },
+            {
+              "is_correct": false,
+              "text": "// Σχόλιο"
+            },
+            {
+              "is_correct": false,
+              "text": "<!-- Σχόλιο -->"
+            }
+          ],
+          "question": "Ποιο από τα παρακάτω είναι σωστός τρόπος δημιουργίας σχολίου στην Python;",
+          "type": "Ποιο από τα παρακάτω είναι σωστός τρόπος δημιουργίας σχολίου στην Python;"
+        }
+      ],
+      "theory": {
+        "section 1": {
+          "content": "Να εισαχθούν οι μαθητές στις βασικές δομές και στη σύνταξη της γλώσσας προγραμματισμού Python, ώστε να μπορούν να γράφουν και να εκτελούν απλά προγράμματα.",
+          "title": "Γενικός Σκοπός της Ενότητας"
+        },
+        "section 10": {
+          "content": "https://drive.google.com/uc?export=view&id=1R6S2F9cjbOm9ptrbHO3hFPlZ8RGrRMRl",
+          "title": "Πόρος"
+        },
+        "section 11": {
+          "content": "Τα σχόλια χρησιμοποιούνται για να εξηγούν τι κάνει ο κώδικας και αγνοούνται κατά την εκτέλεση.\nΓια μονή γραμμή σχολίου:",
+          "title": "Σχόλια στον Κώδικα"
+        },
+        "section 12": {
+          "content": "https://drive.google.com/uc?export=view&id=1ByqI_PP2MPLaOoszpssA0rH6UmX2gRDU",
+          "title": "Πόρος"
+        },
+        "section 13": {
+          "content": "Για πολλαπλές γραμμές σχολίου:",
+          "title": "Σχόλια στον Κώδικα"
+        },
+        "section 14": {
+          "content": "https://drive.google.com/uc?export=view&id=1d16EJz3oqOzUeIigNxlOr0gaL-y7ci1S",
+          "title": "Πόρος"
+        },
+        "section 15": {
+          "content": "Η χρήση σχολίων κάνει τον κώδικα ευανάγνωστο και πιο εύκολο στη συντήρηση.",
+          "title": "Σχόλια στον Κώδικα"
+        },
+        "section 16": {
+          "content": "Οι μαθητές θα πρέπει πλέον να:\n- Γνωρίζουν βασικές δομές της Python.\n- Μπορούν να δηλώσουν μεταβλητές και να αναγνωρίζουν τύπους δεδομένων.\n- Χειρίζονται είσοδο και έξοδο πληροφοριών.\n- Χρησιμοποιούν σχόλια στον κώδικά τους για καλύτερη τεκμηρίωση.",
+          "title": "Σύνοψη της Ενότητας"
+        },
+        "section 2": {
+          "content": "Στην Python, μεταβλητές είναι θέσεις αποθήκευσης δεδομένων, που χρησιμοποιούνται για να κρατούν τιμές.\nΠαράδειγμα δήλωσης μεταβλητής:",
+          "title": "Μεταβλητές στην Python"
+        },
+        "section 3": {
+          "content": "https://drive.google.com/uc?export=view&id=1S09N_RqDvYGPNQYPyC_JsoHc39fKbpbt",
+          "title": "Πόρος"
+        },
+        "section 4": {
+          "content": "Δεν χρειάζεται να δηλώσουμε τύπο μεταβλητής (η Python τον αναγνωρίζει αυτόματα).\n- Το όνομα της μεταβλητής πρέπει να ξεκινά με γράμμα ή κάτω παύλα (_).",
+          "title": "Σημαντικά σημεία:"
+        },
+        "section 5": {
+          "content": "Στην Python συναντάμε βασικούς τύπους δεδομένων, όπως:\n- Ακέραιοι αριθμοί (int): π.χ., 10\n- Δεκαδικοί αριθμοί (float): π.χ., 3.14\n- Συμβολοσειρές (string): π.χ., \"Καλημέρα\"\n- Λογικές τιμές (boolean): True ή False",
+          "title": "Βασικοί Τύποι Δεδομένων"
+        },
+        "section 6": {
+          "content": "https://drive.google.com/uc?export=view&id=1CevKK0zp73TGOOvLeOOHcQQHwqRnkOI_",
+          "title": "Πόρος"
+        },
+        "section 7": {
+          "content": "Η Python παρέχει εύκολους τρόπους εισαγωγής και εμφάνισης δεδομένων.\nΕμφάνιση στην οθόνη (Έξοδος):",
+          "title": "Είσοδος και Έξοδος Δεδομένων"
+        },
+        "section 8": {
+          "content": "https://drive.google.com/uc?export=view&id=1n8SyBwzKn1oPtxL9s-4SOoVFVLY0Hrik",
+          "title": "Πόρος"
+        },
+        "section 9": {
+          "content": "Εισαγωγή δεδομένων από τον χρήστη (Είσοδος):",
+          "title": "Είσοδος και Έξοδος Δεδομένων"
+        }
+      },
+      "title": "Βασικά Συντακτικά Στοιχεία στην Python"
+    },
+    "lesson_3": {
+      "fail": {
+        "url": "https://www.youtube.com/watch?v=23vCap6iYSs&list=PL0Zuz27SZ-6MQri81d012LwP5jvFZ_scc&index=8"
+      },
+      "pass": {
+        "theoretical": {
+          "exercises": {
+            "instruction": "Ταξινόμησε τις εντολές για να δημιουργήσεις ένα πρόγραμμα που να ελέγχει αν ο αριθμός είναι μεγαλύτερος του 10:",
+            "program": "βαθμός = int(input(\"Δώσε τον βαθμό σου: \"))/n  if βαθμός > 10/n     print(\"Επιτυχία\")/n else:/n     print(\"Αποτυχία\")/n"
+          },
+          "url": "https://www.w3schools.com/python/python_conditions.asp"
+        },
+        "visual": {
+          "exercises": {
+            "answers": 2,
+            "instruction": "Θέλουμε να γράψουμε ένα πρόγραμμα που ελέγχει αν ένας αριθμός είναι θετικός, αρνητικός ή μηδέν. Ποια είναι η σωστή ροή εντολών;",
+            "program": [
+              null,
+              "if αριθμός < 0:/n     print(\"Αρνητικός\")/n elif αριθμός == 0:/n     print(\"Μηδέν\")/n else:/n     print(\"Θετικός\")",
+              "if αριθμός > 0:/n     print(\"Θετικός\")/n elif αριθμός < 0:/n     print(\"Αρνητικός\")/n else:/n     print(\"Μηδέν\")",
+              "if αριθμός == 0:/n     print(\"Μηδέν\")/n else:/n     print(\"Θετικός ή αρνητικός\")/n"
+            ]
+          },
+          "url": "https://www.youtube.com/watch?v=23vCap6iYSs&list=PL0Zuz27SZ-6MQri81d012LwP5jvFZ_scc&index=8"
+        }
+      },
+      "quizzes": [
+        {
+          "options": [
+            {
+              "is_correct": false,
+              "text": "loop"
+            },
+            {
+              "is_correct": false,
+              "text": "print"
+            },
+            {
+              "is_correct": true,
+              "text": "if"
+            },
+            {
+              "is_correct": false,
+              "text": "input"
+            }
+          ],
+          "question": "Ποια εντολή χρησιμοποιείται για να ελέγξουμε μία συνθήκη στην Python;",
+          "type": "multiple_choice"
+        },
+        {
+          "options": [
+            {
+              "is_correct": false,
+              "text": "Αγνοεί το υπόλοιπο πρόγραμμα."
+            },
+            {
+              "is_correct": true,
+              "text": "Εκτελεί το else."
+            },
+            {
+              "is_correct": false,
+              "text": "Κλείνει το πρόγραμμα."
+            },
+            {
+              "is_correct": false,
+              "text": "Εμφανίζει σφάλμα."
+            }
+          ],
+          "question": "Τι εκτελεί το πρόγραμμα αν καμία από τις συνθήκες if ή elif δεν είναι αληθής;",
+          "type": "multiple_choice"
+        },
+        {
+          "options": [
+            {
+              "is_correct": false,
+              "text": "and"
+            },
+            {
+              "is_correct": false,
+              "text": "or"
+            },
+            {
+              "is_correct": true,
+              "text": " not"
+            },
+            {
+              "is_correct": false,
+              "text": "if"
+            }
+          ],
+          "question": "Ποιος τελεστής χρησιμοποιείται για να αντιστρέψουμε μία λογική συνθήκη;",
+          "type": "multiple_choice"
+        }
+      ],
+      "theory": {
+        "section 1": {
+          "content": "Να εισαχθούν οι μαθητές στις βασικές δομές ελέγχου ροής της γλώσσας Python, οι οποίες επιτρέπουν στον κώδικα να λαμβάνει αποφάσεις και να εκτελεί διαφορετικές ενέργειες με βάση συνθήκες.",
+          "title": "Γενικός Σκοπός της Ενότητας"
+        },
+        "section 2": {
+          "content": "Στην Python, χρησιμοποιούμε τις δομές ελέγχου για να καθορίζουμε ποια τμήματα του κώδικα θα εκτελούνται, ανάλογα με την αλήθεια κάποιων συνθηκών.\nΓενική μορφή:",
+          "title": "Δομές Ελέγχου: if, elif, else"
+        },
+        "section 3": {
+          "content": "https://drive.google.com/uc?export=view&id=1Kry8fIh6qLeNmPpr3jvES104MuOLvjG2",
+          "title": "Πόρος"
+        },
+        "section 4": {
+          "content": "Παράδειγμα:",
+          "title": "Παράδειγμα χρήσης if/elif/else"
+        },
+        "section 5": {
+          "content": "https://drive.google.com/uc?export=view&id=1V1n_iBcY081eH1otqXzb1PPJFWclCMuG",
+          "title": "Πόρος"
+        },
+        "section 6": {
+          "content": "Οι λογικοί τελεστές χρησιμοποιούνται για τη σύνθεση πολλαπλών συνθηκών.",
+          "title": "Λογικοί Τελεστές"
+        },
+        "section 7": {
+          "content": "https://drive.google.com/uc?export=view&id=1wRCRuB2Pp9EcViAk0bYlociWDz4lM80Z",
+          "title": "Πόρος"
+        },
+        "section 8": {
+          "content": "Παράδειγμα χρήσης:",
+          "title": "Παράδειγμα με Λογικούς Τελεστές"
+        },
+        "section 9": {
+          "content": "https://drive.google.com/uc?export=view&id=1VAskAb_Om3GdlKf7UK8D0L_rtH5H1bge",
+          "title": "Πόρος"
+        }
+      },
+      "title": "Δομές Ελέγχου στην Python"
+    },
+    "lesson_4": {
+      "fail": {
+        "url": "https://www.youtube.com/watch?v=23vCap6iYSs&list=PL0Zuz27SZ-6MQri81d012LwP5jvFZ_scc&index=8"
+      },
+      "pass": {
+        "theoretical": {
+          "exercises": {
+            "answers": 2,
+            "instruction": "Επέλεξε την σωστή ροή:",
+            "program": [
+              null,
+              "for i in μαθήματα:/n     print(μαθήματα)",
+              "for μάθημα in μαθήματα:/n     print(μάθημα)",
+              "while μάθημα in μαθήματα:/n     print(μάθημα)"
+            ]
+          },
+          "url": "https://www.w3schools.com/python/python_lists.asp"
+        },
+        "visual": {
+          "exercises": {
+            "answers": [
+              null,
+              "answer <= 5",
+              "1"
+            ],
+            "instruction": "Συμπλήρωσε τα κενά στο παρακάτω πρόγραμμα ώστε να εκτυπώνονται όλοι οι αριθμοί από 1 έως 5.",
+            "program": "answer= 1/n  while ***: /n    print(answer)/n     answer= answer+ ***/n"
+          },
+          "url": "https://www.programiz.com/python-programming/online-compiler/"
+        }
+      },
+      "quizzes": [
+        {
+          "options": [
+            {
+              "is_correct": false,
+              "text": "if"
+            },
+            {
+              "is_correct": true,
+              "text": "for"
+            },
+            {
+              "is_correct": false,
+              "text": "while"
+            },
+            {
+              "is_correct": false,
+              "text": "repeat"
+            }
+          ],
+          "question": "Ποια εντολή χρησιμοποιείται για επανάληψη πάνω σε στοιχεία λίστας;",
+          "type": "multiple_choice"
+        },
+        {
+          "options": [
+            {
+              "is_correct": false,
+              "text": "Όταν η συνθήκη είναι ψευδής."
+            },
+            {
+              "is_correct": true,
+              "text": "Όταν η συνθήκη είναι αληθής. "
+            },
+            {
+              "is_correct": false,
+              "text": "Μόνο μία φορά."
+            },
+            {
+              "is_correct": false,
+              "text": "Κατά την είσοδο των δεδομένων."
+            }
+          ],
+          "question": "Πότε εκτελείται ο βρόχος while στην Python;",
+          "type": "multiple_choice"
+        },
+        {
+          "options": [
+            {
+              "is_correct": false,
+              "text": "μαθήματα[1]"
+            },
+            {
+              "is_correct": false,
+              "text": "μαθήματα(0)"
+            },
+            {
+              "is_correct": true,
+              "text": "μαθήματα[0] "
+            },
+            {
+              "is_correct": false,
+              "text": "μαθήματα.first()"
+            }
+          ],
+          "question": "Πώς αποκτούμε πρόσβαση στο πρώτο στοιχείο μιας λίστας μαθήματα στην Python;",
+          "type": "multiple_choice"
+        }
+      ],
+      "theory": {
+        "section 1": {
+          "content": "Να εισαχθούν οι μαθητές στις δομές επανάληψης for, while, καθώς και στη χρήση λιστών στην Python, προκειμένου να επαναλαμβάνουν ενέργειες και να διαχειρίζονται συλλογές δεδομένων.",
+          "title": "Γενικός Σκοπός της Ενότητας"
+        },
+        "section 10": {
+          "content": "Μία λίστα είναι μία συλλογή αντικειμένων, η οποία είναι μεταβλητή (μπορεί να αλλάξει).\nΔημιουργία λίστας:",
+          "title": "Λίστες στην Python"
+        },
+        "section 11": {
+          "content": "https://drive.google.com/uc?export=view&id=16U1cBP7oxI5GToWr9Y75wdY0IIQ5978V",
+          "title": "Πόρος"
+        },
+        "section 12": {
+          "content": "Πρόσβαση σε στοιχεία λίστας:",
+          "title": "Πρόσβαση σε στοιχεία λίστας"
+        },
+        "section 13": {
+          "content": "https://drive.google.com/uc?export=view&id=1r5X_5kDgQy2LDO3V5U3ZHY-udyFliY1r",
+          "title": "Πόρος"
+        },
+        "section 14": {
+          "content": "Επανάληψη πάνω σε λίστα:",
+          "title": "Επανάληψη πάνω σε λίστα"
+        },
+        "section 15": {
+          "content": "https://drive.google.com/uc?export=view&id=1Ww2u6NYWXVt0_7hkNjUeqmTHGcmcw_sY",
+          "title": "Πόρος"
+        },
+        "section 2": {
+          "content": "Ο βρόχος for χρησιμοποιείται για να επαναλάβει ενέργειες για κάθε στοιχείο μίας ακολουθίας (π.χ. λίστα, συμβολοσειρά).\nΓενική μορφή:",
+          "title": "Βρόχοι for"
+        },
+        "section 3": {
+          "content": "https://drive.google.com/uc?export=view&id=1feaJmlu8FqWUFtTDTqV3Cdk7pPyZwKDc",
+          "title": "Πόρος"
+        },
+        "section 4": {
+          "content": "Παράδειγμα:",
+          "title": "Παράδειγμα"
+        },
+        "section 5": {
+          "content": "https://drive.google.com/uc?export=view&id=1VSUUx9ss4rIRDNwqsie-3Bb_X2WsWdLj",
+          "title": "Πόρος"
+        },
+        "section 6": {
+          "content": "Ο βρόχος while εκτελείται όσο μία συνθήκη είναι αληθής.\nΓενική μορφή:",
+          "title": "Βρόχοι while"
+        },
+        "section 7": {
+          "content": "https://drive.google.com/uc?export=view&id=1kc1LlymZsDC7py_IQbX4kOEF_9BW87om",
+          "title": "Πόρος"
+        },
+        "section 8": {
+          "content": "Παράδειγμα:",
+          "title": "Παράδειγμα"
+        },
+        "section 9": {
+          "content": "https://drive.google.com/uc?export=view&id=1tEkwrrlONK7JilnpmKVb4gl-bTjNfOLx",
+          "title": "Πόρος"
+        }
+      },
+      "title": "Επανάληψη και Λίστες στην Python"
+    },
+    "lesson_5": {
+      "fail": {
+        "url": "https://www.youtube.com/watch?v=NZMBVkTP3LA&list=PL0Zuz27SZ-6MQri81d012LwP5jvFZ_scc&index=9"
+      },
+      "pass": {
+        "theoretical": {
+          "answers": "# Συνάρτηση που ελέγχει αν ο αριθμός είναι άρτιος def einai_artios(n):/n     if n % 2 == 0:/n         return True/n     else:/n         return False/n  # Κύριο πρόγραμμα/n arithmos = int(input(\"Δώσε έναν αριθμό: \"))/n  if einai_artios(arithmos):/n     print(\"Ο αριθμός είναι άρτιος.\")/n else:/n     print(\"Ο αριθμός είναι περιττός.\")/n",
+          "instruction": "Να γράψετε ένα πρόγραμμα σε Python που να ελέγχει αν ένας αριθμός είναι άρτιος ή περιττός χρησιμοποιώντας μία συνάρτηση. Ο χρήστης θα εισάγει έναν αριθμό και το πρόγραμμα θα εμφανίζει αν είναι άρτιος ή περιττός.",
+          "url": "https://www.online-python.com/"
+        },
+        "visual": {
+          "answers": "def πρόσθεση(a, b):/n     return a + b/n  def αφαίρεση(a, b):/n     return a - b/n  def πολλαπλασιασμός(a, b):/n     return a * b/n  def διαίρεση(a, b):/n     return a / b/n  # Κυρίως πρόγραμμα/n x = int(input(\"Δώσε τον πρώτο αριθμό: \"))/n y = int(input(\"Δώσε τον δεύτερο αριθμό: \")) /n print(\"Άθροισμα:\", πρόσθεση(x, y))/n print(\"Διαφορά:\", αφαίρεση(x, y))/n print(\"Προϊόν:\", πολλαπλασιασμός(x, y))/n print(\"Πηλίκο:\", διαίρεση(x, y))/n",
+          "instruction": "Δημιουργία Αριθμομηχανής Οδηγία: Δημιουργήστε πρόγραμμα που ζητά δύο αριθμούς και πραγματοποιεί βασικές αριθμητικές πράξεις χρησιμοποιώντας συναρτήσεις. Απαιτήσεις: •\tΣυνάρτηση πρόσθεσης •\tΣυνάρτηση αφαίρεσης •\tΣυνάρτηση πολλαπλασιασμού•\tΣυνάρτηση διαίρεσης",
+          "url": "https://www.online-python.com/"
+        }
+      },
+      "quizzes": [
+        {
+          "options": [
+            {
+              "is_correct": false,
+              "text": "define"
+            },
+            {
+              "is_correct": true,
+              "text": "def"
+            },
+            {
+              "is_correct": false,
+              "text": "func"
+            },
+            {
+              "is_correct": false,
+              "text": "function"
+            }
+          ],
+          "question": "Ποια λέξη-κλειδί χρησιμοποιείται για να ορίσουμε συνάρτηση στην Python;",
+          "type": "multiple_choice"
+        },
+        {
+          "options": [
+            {
+              "is_correct": false,
+              "text": "call καλημέρα()"
+            },
+            {
+              "is_correct": true,
+              "text": "καλημέρα() "
+            },
+            {
+              "is_correct": false,
+              "text": "invoke(καλημέρα)"
+            },
+            {
+              "is_correct": false,
+              "text": "function καλημέρα()"
+            }
+          ],
+          "question": "Πώς καλούμε μία συνάρτηση με όνομα καλημέρα;",
+          "type": "multiple_choice"
+        },
+        {
+          "options": [
+            {
+              "is_correct": false,
+              "text": "Σταματά την εκτέλεση του προγράμματος."
+            },
+            {
+              "is_correct": false,
+              "text": "Δημιουργεί νέα συνάρτηση."
+            },
+            {
+              "is_correct": true,
+              "text": "Επιστρέφει μία τιμή στο σημείο κλήσης. "
+            },
+            {
+              "is_correct": false,
+              "text": "Εκτελεί είσοδο δεδομένων."
+            }
+          ],
+          "question": "Τι κάνει η εντολή return σε μία συνάρτηση;",
+          "type": "multiple_choice"
+        }
+      ],
+      "theory": {
+        "section 1": {
+          "content": "Να κατανοήσουν οι μαθητές την έννοια και τη σημασία των συναρτήσεων στον προγραμματισμό Python, και να εφαρμόσουν τις γνώσεις τους σε ένα μικρής κλίμακας ολοκληρωμένο έργο (mini project).",
+          "title": "Γενικός Σκοπός της Ενότητας"
+        },
+        "section 2": {
+          "content": "Στην Python, μια συνάρτηση είναι ένα μπλοκ κώδικα που εκτελεί μια συγκεκριμένη εργασία και μπορεί να επαναχρησιμοποιηθεί.\nΟρισμός Συνάρτησης:",
+          "title": "Τι είναι οι Συναρτήσεις"
+        },
+        "section 3": {
+          "content": "https://drive.google.com/uc?export=view&id=1xdB8NkmcTuTQVJmvHwO1yEd7TiKAVKn9",
+          "title": "Πόρος"
+        },
+        "section 4": {
+          "content": "Παράδειγμα:",
+          "title": "Παράδειγμα"
+        },
+        "section 5": {
+          "content": "https://drive.google.com/uc?export=view&id=1Gni8CzDY4f4w2oYkBvtzb2nDgEIds-VX",
+          "title": "Πόρος"
+        },
+        "section 6": {
+          "content": "• Παράμετροι: Δεδομένα που περνάμε στη συνάρτηση για επεξεργασία.\n• Τιμή επιστροφής: Το αποτέλεσμα που επιστρέφει η συνάρτηση στο πρόγραμμα.",
+          "title": "Παράμετροι και Τιμές Επιστροφής"
+        },
+        "section 7": {
+          "content": "Παράδειγμα με τιμή επιστροφής:",
+          "title": "Παράδειγμα με τιμή επιστροφής"
+        },
+        "section 8": {
+          "content": "https://drive.google.com/uc?export=view&id=1dYgRhi2ZvovyGMhnctPaYgK5xYQen9LM",
+          "title": "Πόρος"
+        },
+        "section 9": {
+          "content": "• Κάνουν τον κώδικα πιο οργανωμένο και ευανάγνωστο.\n• Διευκολύνουν την επαναχρησιμοποίηση.\n• Χωρίζουν το πρόβλημα σε μικρότερα, διαχειρίσιμα μέρη.",
+          "title": "Σημασία Χρήσης Συναρτήσεων"
+        }
+      },
+      "title": "Συναρτήσεις και Mini Project στην Python"
+    },
+    "lesson_6": {
+      "pass": {
+        "url": "https://codecombat.com/play"
+      },
+      "quizzes": [
+        {
+          "options": [
+            {
+              "is_correct": false,
+              "text": "Elon Musk"
+            },
+            {
+              "is_correct": true,
+              "text": "Guido van Rossum "
+            },
+            {
+              "is_correct": false,
+              "text": "Bill Gates"
+            },
+            {
+              "is_correct": false,
+              "text": "Steve Jobs"
+            }
+          ],
+          "question": "Ποιος δημιούργησε τη γλώσσα προγραμματισμού Python;",
+          "type": "multiple_choice"
+        },
+        {
+          "options": [
+            {
+              "is_correct": false,
+              "text": "input()"
+            },
+            {
+              "is_correct": false,
+              "text": "show()"
+            },
+            {
+              "is_correct": true,
+              "text": "print()"
+            },
+            {
+              "is_correct": false,
+              "text": "output()"
+            }
+          ],
+          "question": "Ποια είναι η εντολή εξόδου που εμφανίζει μήνυμα στην οθόνη στην Python;",
+          "type": "multiple_choice"
+        },
+        {
+          "options": [
+            {
+              "is_correct": true,
+              "text": "var = 15 "
+            },
+            {
+              "is_correct": false,
+              "text": "int var = 15"
+            },
+            {
+              "is_correct": false,
+              "text": "let var = 15"
+            },
+            {
+              "is_correct": false,
+              "text": "def var = 15"
+            }
+          ],
+          "question": "Ποιος είναι ο σωστός τρόπος για να ορίσουμε μία μεταβλητή με τιμή 15;",
+          "type": "multiple_choice"
+        },
+        {
+          "options": [
+            {
+              "is_correct": false,
+              "text": "for"
+            },
+            {
+              "is_correct": true,
+              "text": "if"
+            },
+            {
+              "is_correct": false,
+              "text": "while"
+            },
+            {
+              "is_correct": false,
+              "text": "elif"
+            }
+          ],
+          "question": "Ποια δομή χρησιμοποιούμε στην Python για έλεγχο συνθηκών;",
+          "type": "multiple_choice"
+        },
+        {
+          "options": [
+            {
+              "is_correct": false,
+              "text": "or"
+            },
+            {
+              "is_correct": true,
+              "text": "and"
+            },
+            {
+              "is_correct": false,
+              "text": "not"
+            },
+            {
+              "is_correct": false,
+              "text": "if"
+            }
+          ],
+          "question": "Ποιος λογικός τελεστής επιστρέφει True μόνο αν και οι δύο συνθήκες είναι αληθείς;",
+          "type": "multiple_choice"
+        },
+        {
+          "options": [
+            {
+              "is_correct": true,
+              "text": "for i in range(1, 6): "
+            },
+            {
+              "is_correct": false,
+              "text": "while i < 5:"
+            },
+            {
+              "is_correct": false,
+              "text": "for i = 1 to 5:"
+            },
+            {
+              "is_correct": false,
+              "text": "loop from 1 to 5"
+            }
+          ],
+          "question": "Ποια είναι η σωστή σύνταξη για να εκτελέσουμε ένα βρόχο που τυπώνει αριθμούς από 1 έως 5;",
+          "type": "multiple_choice"
+        },
+        {
+          "options": [
+            {
+              "is_correct": false,
+              "text": "define"
+            },
+            {
+              "is_correct": true,
+              "text": "def"
+            },
+            {
+              "is_correct": false,
+              "text": "func"
+            },
+            {
+              "is_correct": false,
+              "text": "function"
+            }
+          ],
+          "question": "Ποια λέξη-κλειδί χρησιμοποιείται για να ορίσουμε συνάρτηση στην Python;",
+          "type": "multiple_choice"
+        },
+        {
+          "options": [
+            {
+              "is_correct": false,
+              "text": "Σταματά το πρόγραμμα."
+            },
+            {
+              "is_correct": true,
+              "text": "Επιστρέφει τιμή στον καλούντα."
+            },
+            {
+              "is_correct": false,
+              "text": "Επαναλαμβάνει τη συνάρτηση."
+            },
+            {
+              "is_correct": false,
+              "text": "Δημιουργεί νέα μεταβλητή."
+            }
+          ],
+          "question": "Ποια είναι η λειτουργία της εντολής return σε μία συνάρτηση;",
+          "type": "multiple_choice"
+        }
+      ]
+    }
+  },
+  "users": {
+    "POT4aIJZuGMRpt8ImgPwxqZkC1i2": {
+      "email": "glyk@gmail.com",
+      "learning_style": "Θεωρητικός",
+      "lesson_progress": {
+        "status": "",
+        "time_spent": 0
+      },
+      "registration_date": "2025-05-17 18:38:57",
+      "statistics": {
+        "avg_score": "96%",
+        "correct_answers": 0,
+        "correct_answers_quiz_1": 2,
+        "correct_answers_quiz_2": 3,
+        "correct_answers_quiz_3": 3,
+        "correct_answers_quiz_4": 3,
+        "correct_answers_quiz_5": 3,
+        "correct_answers_quiz_6": 0,
+        "highest_reached_quiz": 6,
+        "last_completed_course": "Ενότητα 5",
+        "quiz_1_unlocked": true,
+        "quiz_2_unlocked": true,
+        "quiz_3_unlocked": true,
+        "quiz_4_unlocked": true,
+        "quiz_5_unlocked": true,
+        "quiz_6_unlocked": true,
+        "quiz_statistics": {
+          "last_completed_quiz": 6,
+          "quiz_success": false
+        },
+        "total_questions_quiz_1": 3,
+        "total_questions_quiz_2": 3,
+        "total_questions_quiz_3": 3,
+        "total_questions_quiz_4": 3,
+        "total_questions_quiz_5": 3,
+        "total_questions_quiz_6": 8,
+        "total_quizzes": 0,
+        "total_training_time": 1
+      },
+      "username": "Glykeria"
+    },
+    "TSMj5jJxXUOoqFoDH9Un8llscSY2": {
+      "email": "mat@gmail.com",
+      "learning_style": "Θεωρητικός",
+      "lesson_progress": {
+        "status": "",
+        "time_spent": 0
+      },
+      "registration_date": "2025-05-17 18:36:52",
+      "statistics": {
+        "avg_score": "33%",
+        "correct_answers": 0,
+        "correct_answers_quiz_1": 0,
+        "highest_reached_quiz": 1,
+        "last_completed_course": "Ενότητα 1",
+        "quiz_statistics": {
+          "last_completed_quiz": 1,
+          "quiz_success": false
+        },
+        "total_questions_quiz_1": 3,
+        "total_quizzes": 0,
+        "total_training_time": 0
+      },
+      "username": "Mat"
+    },
+    "UcHCWkUbMJO5yuaGQxZYel22XI13": {
+      "email": "a@gmail.com",
+      "learning_style": "Οπτικός (Visual)",
+      "lesson_progress": {
+        "status": "",
+        "time_spent": 0
+      },
+      "registration_date": "2025-05-18 03:20:48",
+      "statistics": {
+        "avg_score": "43%",
+        "correct_answers": 0,
+        "correct_answers_quiz_1": 2,
+        "correct_answers_quiz_2": 2,
+        "correct_answers_quiz_3": 0,
+        "correct_answers_quiz_4": 2,
+        "correct_answers_quiz_5": 2,
+        "correct_answers_quiz_6": 0,
+        "highest_reached_quiz": 6,
+        "last_completed_course": "Ενότητα 2",
+        "quiz_1_unlocked": true,
+        "quiz_2_unlocked": true,
+        "quiz_3_unlocked": true,
+        "quiz_4_unlocked": true,
+        "quiz_5_unlocked": true,
+        "quiz_statistics": {
+          "last_completed_quiz": 3,
+          "quiz_success": false
+        },
+        "total_questions_quiz_1": 3,
+        "total_questions_quiz_2": 3,
+        "total_questions_quiz_3": 3,
+        "total_questions_quiz_4": 3,
+        "total_questions_quiz_5": 3,
+        "total_questions_quiz_6": 8,
+        "total_quizzes": 0,
+        "total_training_time": 0
+      },
+      "username": "a"
+    },
+    "uPOu8y9idcebhoNnI8t8gOUseY23": {
+      "email": "fotgimi@gmail.com",
+      "learning_style": "Οπτικός (Visual)",
+      "lesson_progress": {
+        "status": "",
+        "time_spent": 0
+      },
+      "registration_date": "2025-05-17 18:25:37",
+      "statistics": {
+        "avg_score": "96%",
+        "correct_answers": 0,
+        "correct_answers_quiz_1": 3,
+        "correct_answers_quiz_2": 0,
+        "correct_answers_quiz_3": 3,
+        "correct_answers_quiz_4": 2,
+        "correct_answers_quiz_5": 3,
+        "correct_answers_quiz_6": 8,
+        "highest_reached_quiz": 6,
+        "last_completed_course": "Ενότητα 3",
+        "quiz_1_unlocked": true,
+        "quiz_2_unlocked": true,
+        "quiz_3_unlocked": true,
+        "quiz_4_unlocked": true,
+        "quiz_5_unlocked": true,
+        "quiz_6_unlocked": true,
+        "quiz_statistics": {
+          "last_completed_quiz": 2,
+          "quiz_success": false
+        },
+        "total_questions_quiz_1": 3,
+        "total_questions_quiz_2": 3,
+        "total_questions_quiz_3": 3,
+        "total_questions_quiz_4": 3,
+        "total_questions_quiz_5": 3,
+        "total_questions_quiz_6": 8,
+        "total_quizzes": 0,
+        "total_training_time": 0
+      },
+      "username": "Dimitrios"
+    }
+  }
+}

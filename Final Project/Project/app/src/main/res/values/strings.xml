@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DBInject</string>
+    <string-array name="learning_styles">
+        <item>Οπτικός (Visual)</item>
+        <item>Θεωρητικός</item>
+    </string-array>
+</resources>

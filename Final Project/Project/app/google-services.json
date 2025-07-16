@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "446935371890",
+    "firebase_url": "https://db-educationalsoftware-default-rtdb.firebaseio.com",
+    "project_id": "db-educationalsoftware",
+    "storage_bucket": "db-educationalsoftware.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:446935371890:android:fbce5146d5e9909748f2eb",
+        "android_client_info": {
+          "package_name": "com.example.dbinject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYA4e6BBiqhCUpakl90pyfNMptPrFkYXU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
