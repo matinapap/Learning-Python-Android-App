@@ -27,30 +27,13 @@ The purpose of PyLearn is to make Python programming accessible and enjoyable fo
 <table>
   <tr>
     <td align="center">
-      <img src="[https://avatars.githubusercontent.com/u/placeholder1](https://github.com/account)" width="100px;" alt="Matina Papadakou"/><br />
-      <sub><b>Matina Papadakou</b></sub><br />
+      <a href="https://github.com/matinapap">
+        <img src="https://github.com/matinapap.png" width="100px;" alt="Matina Papadakou"/><br />
+        <sub><b>Matina Papadakou</b></sub>
+      </a>
       <p>P21127</p>
-    </td>
-    <td align="center">
-      <img src="https://avatars.githubusercontent.com/u/placeholder2" width="100px;" alt="Dimitrios Fotiadis"/><br />
-      <sub><b>Dimitrios Fotiadis</b></sub><br />
-      <p>P21183</p>
-    </td>
-    <td align="center">
-      <img src="https://avatars.githubusercontent.com/u/placeholder3" width="100px;" alt="Glykeria Kalamara"/><br />
-      <sub><b>Glykeria Kalamara</b></sub><br />
-      <p>P21042</p>
     </td>
   </tr>
 </table>
-
-> 📌 If you fork or reuse this project, please acknowledge the original authors.
-
-## 🗓️ Submission Info
-
-- **Course**: Educational Software  
-- **University**: University of Piraeus  
-- **Instructor**: Aristea Kontogianni  
-- **Date**: May 28, 2025  
 
 ## 📷 Screenshots
