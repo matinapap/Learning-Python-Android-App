@@ -34,6 +34,24 @@ The purpose of PyLearn is to make Python programming accessible and enjoyable fo
       <p>P21127</p>
     </td>
   </tr>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/p21183">
+        <img src="https://github.com/p21183.png" width="100px;" alt="Dimitrios Fotiadis"/><br />
+        <sub><b>Dimitrios Fotiadis</b></sub>
+      </a>
+      <p>P21183</p>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/glykeriak">
+        <img src="https://github.com/glykeriak.png" width="100px;" alt="Glykeria Kalamara"/><br />
+        <sub><b>Glykeria Kalamara</b></sub>
+      </a>
+      <p>P21127</p>
+    </td>
+  </tr>
 </table>
 
 ## 📷 Screenshots
