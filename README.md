@@ -24,7 +24,7 @@ The purpose of PyLearn is to make Python programming accessible and enjoyable fo
 
 ## 📄 Documentation
 
-📘 [Project Documentation (PDF)](https://github.com/matinapap/Learning-Python-Android-App/blob/main/PyLearn_Documentation.pdf)
+📘 [Project Documentation (PDF)](https://github.com/matinapap/Learning-Python-Android-App/blob/main/%CE%95%CE%BA%CF%80%CE%B1%CE%B9%CE%B4%CE%B5%CF%85%CF%84%CE%B9%CE%BA%CF%8C%20%CE%9B%CE%BF%CE%B3%CE%B9%CF%83%CE%BC%CE%B9%CE%BA%CF%8C_%CE%91%CE%BD%CE%B1%CF%86%CE%BF%CF%81%CE%AC.pdf)
 
 ## 👥 Contributors
 
