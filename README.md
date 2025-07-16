@@ -49,5 +49,3 @@ The purpose of PyLearn is to make Python programming accessible and enjoyable fo
     </td>
   </tr>
 </table>
-
-## 📷 Screenshots
