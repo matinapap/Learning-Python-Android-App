@@ -22,6 +22,10 @@ The purpose of PyLearn is to make Python programming accessible and enjoyable fo
 - **IDE**: Android Studio  
 - **Tools**: Gradle, Android Emulator, Google Services  
 
+## 📄 Documentation
+
+📘 [Project Documentation (PDF)](https://github.com/matinapap/Learning-Python-Android-App/blob/main/PyLearn_Documentation.pdf)
+
 ## 👥 Contributors
 
 <table>
