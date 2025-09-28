@@ -24,15 +24,23 @@ The purpose of PyLearn is to make Python programming accessible and enjoyable fo
 
 ## 📷 Screenshots 
 
-<img width="352" height="720" alt="Στιγμιότυπο οθόνης 2025-09-29 001200" src="https://github.com/user-attachments/assets/14bdafbb-cfd8-4c6f-acf8-ee8f29e93876" />
-<img width="357" height="723" alt="Στιγμιότυπο οθόνης 2025-09-29 001212" src="https://github.com/user-attachments/assets/0555ebc2-11fb-43ba-9619-5e0503ccce78" />
-<img width="341" height="719" alt="Στιγμιότυπο οθόνης 2025-09-29 001230" src="https://github.com/user-attachments/assets/651b4b54-cf19-4450-9097-016f7ac01313" />
-<img width="345" height="718" alt="Στιγμιότυπο οθόνης 2025-09-29 001239" src="https://github.com/user-attachments/assets/143bb135-6fdd-41ef-b0a0-5cb64a5fbb53" />
-<img width="351" height="675" alt="Στιγμιότυπο οθόνης 2025-09-29 001249" src="https://github.com/user-attachments/assets/64fabb9e-d4a2-401a-82e1-734f42c37421" />
-<img width="332" height="720" alt="Στιγμιότυπο οθόνης 2025-09-29 001310" src="https://github.com/user-attachments/assets/fc1071d7-9c0d-4da0-9c46-4efddcd82437" />
-<img width="332" height="721" alt="Στιγμιότυπο οθόνης 2025-09-29 001320" src="https://github.com/user-attachments/assets/46a7d96d-2ae1-4261-abf6-53d29f950021" />
-<img width="348" height="720" alt="Στιγμιότυπο οθόνης 2025-09-29 001330" src="https://github.com/user-attachments/assets/dde1c715-39b5-4d02-95de-26ab469f1f61" />
-<img width="345" height="720" alt="Στιγμιότυπο οθόνης 2025-09-29 001340" src="https://github.com/user-attachments/assets/a7295369-0511-409c-9524-12b1a2c3d0b2" />
+## 📸 Screenshots
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/14bdafbb-cfd8-4c6f-acf8-ee8f29e93876" width="120" />
+  <img src="https://github.com/user-attachments/assets/0555ebc2-11fb-43ba-9619-5e0503ccce78" width="120" />
+  <img src="https://github.com/user-attachments/assets/651b4b54-cf19-4450-9097-016f7ac01313" width="120" />
+  <img src="https://github.com/user-attachments/assets/143bb135-6fdd-41ef-b0a0-5cb64a5fbb53" width="120" />
+  <img src="https://github.com/user-attachments/assets/64fabb9e-d4a2-401a-82e1-734f42c37421" width="120" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/fc1071d7-9c0d-4da0-9c46-4efddcd82437" width="120" />
+  <img src="https://github.com/user-attachments/assets/46a7d96d-2ae1-4261-abf6-53d29f950021" width="120" />
+  <img src="https://github.com/user-attachments/assets/dde1c715-39b5-4d02-95de-26ab469f1f61" width="120" />
+  <img src="https://github.com/user-attachments/assets/a7295369-0511-409c-9524-12b1a2c3d0b2" width="120" />
+  <img src="https://github.com/user-attachments/assets/2a3efcb1-0a8f-488d-b6a7-fa1264905685" width="120" />
+</p>
 
 ## 🎬 Demo Video
 
