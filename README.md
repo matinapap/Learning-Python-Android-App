@@ -27,8 +27,9 @@ The purpose of PyLearn is to make Python programming accessible and enjoyable fo
 **_App Screens:_**
 
 
-**_Demo Video:_**
+## 🎬 Demo Video
 
+[![Watch the demo](https://img.youtube.com/vi/vMPhR6gNC8M/0.jpg)](https://youtu.be/vMPhR6gNC8M)
 
 
 ## 📄 Documentation
