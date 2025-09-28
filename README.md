@@ -20,7 +20,16 @@ The purpose of PyLearn is to make Python programming accessible and enjoyable fo
 - **Frontend**: Java (Android), XML  
 - **Backend**: Firebase Authentication, Firebase Realtime Database  
 - **IDE**: Android Studio  
-- **Tools**: Gradle, Android Emulator, Google Services  
+- **Tools**: Gradle, Android Emulator, Google Services
+
+## 📷 Screenshots / Video
+
+**_App Screens:_**
+
+
+**_Demo Video:_**
+
+
 
 ## 📄 Documentation
 
