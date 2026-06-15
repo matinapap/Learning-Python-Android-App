@@ -1,0 +1,75 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3F2FD"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Ενότητα -->
+        <TextView
+            android:id="@+id/textLessonTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ενότητα"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            android:textColor="#000000" />
+
+        <!-- Τίτλος Άσκησης -->
+        <TextView
+            android:id="@+id/textInstructionTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Τίτλος Άσκησης"
+            android:textSize="18sp"
+            android:layout_marginBottom="16dp"
+            android:textColor="#444444" />
+
+        <!-- Περιοχή drag and drop -->
+        <LinearLayout
+            android:id="@+id/commandContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:background="#E3F2FD"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Κουμπί Ελέγχου -->
+        <Button
+            android:id="@+id/checkButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Έλεγχος σειράς"
+            android:backgroundTint="#124559"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Feedback για τον χρήστη -->
+        <TextView
+            android:id="@+id/feedbackTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:background="@android:color/transparent"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/openLinkButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Δες και κάτι ακόμα!"
+            android:visibility="gone"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="12dp" />
+
+    </LinearLayout>
+</ScrollView>

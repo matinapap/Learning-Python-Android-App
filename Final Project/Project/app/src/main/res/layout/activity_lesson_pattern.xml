@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3F2FD"
+    android:padding="16dp"
+    tools:context=".LessonPatternActivity">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Module Title -->
+        <TextView
+            android:id="@+id/moduleTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ΕΝΟΤΗΤΑ 1"
+            android:textSize="36sp"
+            android:textColor="#124559"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Εισαγωγή στην Python"
+            android:textColor="#124559"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/expandAllButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:backgroundTint="#124559"
+            android:onClick="expandAll"
+            android:text="Άνοιγμα Όλων"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/collapseAllButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:backgroundTint="#124559"
+            android:onClick="collapseAll"
+            android:text="Κλείσιμο Όλων"
+            android:textColor="#FFFFFF" />
+
+        <!-- Expandable List Placeholder -->
+        <ExpandableListView
+            android:id="@+id/lessonExpandableList"
+            android:layout_width="match_parent"
+            android:layout_height="444dp"
+            android:layout_marginTop="16dp"
+            android:dividerHeight="1dp"
+            android:groupIndicator="@null" />
+
+    </LinearLayout>
+</ScrollView>

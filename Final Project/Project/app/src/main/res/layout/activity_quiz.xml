@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/quizRootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E3F2FD"
+    android:padding="16dp"
+    tools:context=".QuizActivity">
+
+    <TextView
+        android:id="@+id/quizTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#124559"
+        android:layout_marginBottom="16dp"
+        android:text="Τίτλος Quiz" />
+
+    <TextView
+        android:id="@+id/timerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#D32F2F"
+        android:layout_marginBottom="16dp"
+        android:text="Χρόνος: 00:00" />
+
+    <ExpandableListView
+        android:id="@+id/questionsExpandableListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:groupIndicator="@null"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#124559"
+        android:textColor="#FFFFFF"
+        android:text="Υποβολή" />
+
+</LinearLayout>
